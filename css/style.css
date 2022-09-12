@@ -1,0 +1,70 @@
+
+:root{
+    --primery-color:rgb(67, 112, 170);
+    --segunda-color:rgb(240, 255, 255);
+}
+*{
+    box-sizing:border-box;
+    outline:none;
+}
+body{
+    margin: 0;
+    padding:0;
+    background-color: var(--primery-color);
+    font-family:  'Open Sans', sans-serif;
+    font-size:1.3em;
+    line-height: 1.5em; /*altura entre a linha dexaixo e de cima*/
+}
+.container{
+   max-width:640px; 
+   margin: 40px auto;  
+   padding:40px;    /*  distancia entre os elementos */
+   background-color:var(--segunda-color);
+   border-radius: 8px;
+}
+form input, form label, form button {
+    display: block;
+    width:100%;
+    margin-bottom:10px;
+}
+form input {
+    font-size:20px;
+    height:40px;
+    padding: 0 20px;
+}
+form input:focus{
+    outline: 1px solid var(--primery-color);
+}
+form button{
+    background-color: var(--primery-color) ;
+    color: var(--segunda-color);
+    border:none;
+    font-size: 18px;
+    font-weight:700px;
+    height:30px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+form button:hover{
+    background:rgb(78, 98, 124);
+    color: var(--segunda-color);
+}
+.paragResult, .bad{
+    text-align:center;
+    background:rgba(186, 238, 186, 0.24);
+    padding: 10px 20px;
+}
+.bad{
+    background:rgb(233, 138, 138);
+}
+.sitacao{
+  padding: 20px;
+}
+.tabImc{
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+h1{
+    text-align: center;
+}
