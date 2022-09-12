@@ -13,7 +13,7 @@ body{
     background-color: var(--primery-color);
     font-family:  'Open Sans', sans-serif;
     font-size:1.3em;
-    line-height: 1.5em; /*altura entre a linha dexaixo e de cima*/
+    line-height: 1.5em; /*altura entre a linha de baixo e de cima*/
 }
 .container{
    max-width:640px; 
